@@ -11,7 +11,7 @@ namespace KSS.Models
         public String Name { get; set; }
         public String Description { get; set; }
         public decimal Price { get; set; }
-        public String location { get; set; }
+        public String Location { get; set; }
         public DateTimeOffset StartTime { get; set; }
         public DateTimeOffset EndTime { get; set; }
         public String Prerequisite { get; set; }
